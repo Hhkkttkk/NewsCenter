@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/admin/css/bootstrap/bootstrap.css">
+    <script src="/admin/js/bootstrap/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+    <div class="loginContainer">
+        <h2>后台管理系统</h2>
+        <form id="loginform">
+            <div class="mb-3">
+                <label for="username" class="form-label">用户名</label>
+                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" required>
+                
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">密码</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">记住用户</label>
+            </div>
+            <button type="button" class="btn btn-primary" id="back">返回</button>
+            <button type="submit" class="btn btn-primary myprimary">登录</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="/admin/js/cookie.js"></script>
+</body>
+
+</html>

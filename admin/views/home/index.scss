@@ -1,0 +1,14 @@
+@import "..\\style.scss" ;
+
+
+
+.userprofile{
+    display: flex;
+    > div{
+        margin-left: 50px;
+        display: flex;
+        //垂直pailie
+        flex-direction: column;
+        justify-content: center;
+    }
+}
