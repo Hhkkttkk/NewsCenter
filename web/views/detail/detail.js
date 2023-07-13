@@ -1,4 +1,4 @@
-import { lode } from "/mycode/web/util/lode.js"
+import { lode } from "/web/util/lode.js"
 //加载导航栏
 lode("")
 
